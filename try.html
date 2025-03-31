@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/dist/reveal.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/dist/theme/white.css">
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/dist/reveal.js"></script>
+</head>
+<body>
+    <div class="reveal">
+        <div class="slides">
+            <!-- Слайд 1 -->
+            <section>
+                <h1>Моя презентация</h1>
+                <p>Добро пожаловать!</p>
+            </section>
+            <!-- Слайд 2: Plotly-график через iframe -->
+            <section>
+                <h2>Мой Plotly-график</h2>
+                <div style="width: 100%; height: 600px;">
+                    <iframe src="https://olegksv.github.io/prezentation/animated_plot_02.html" width="100%" height="100%" frameborder="0"></iframe>
+                </div>
+            </section>
+        </div>
+    </div>
+    <script>
+       
+	Reveal.initialize({
+        embedded: true, // Включить режим встраивания
+        width: "100%",
+        height: "100%",
+        margin: 0
+    });
+    </script>
+</body>
+</html>
